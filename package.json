@@ -1,5 +1,5 @@
 {
-  "name": "bcryptjs",
+  "name": "bcryptjs-react",
   "description": "Optimized bcrypt in plain JavaScript with zero dependencies. Compatible to 'bcrypt'.",
   "version": "2.4.4",
   "author": "Daniel Wirtz <dcode@dcode.io>",
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "url",
-    "url": "https://github.com/dcodeIO/bcrypt.js.git"
+    "url": "https://github.com/jayanta525/bcrypt.js-react.git"
   },
   "bugs": {
-    "url": "https://github.com/dcodeIO/bcrypt.js/issues"
+    "url": "https://github.com/jayanta525/bcrypt.js-react/issues"
   },
   "keywords": [
     "bcrypt",
