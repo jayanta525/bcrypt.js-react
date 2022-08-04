@@ -20,10 +20,7 @@ var randomFallback = null;
  * @inner
  */
 function random(len) {
-    /* node */ if (typeof module !== 'undefined' && module && module['exports'])
-        try {
-            return require("crypto")['randomBytes'](len);
-        } catch (e) {}
+
     /* WCA */ try {
         var a; (self['crypto']||self['msCrypto'])['getRandomValues'](a = new Uint32Array(len));
         return Array.prototype.slice.call(a);
