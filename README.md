@@ -1,3 +1,31 @@
+bcrypt.js-react
+=========
+fixed for webpack v5
+
+```
+    BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+    This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+    If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+    If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+```
+
+Optimized bcrypt in JavaScript with zero dependencies. Compatible to the C++ [bcrypt](https://npmjs.org/package/bcrypt)
+binding on node.js and also working in the browser.
+
+Installation
+-----------------------
+`npm i bcryptjs-react`
+
+Usage
+-----------------------
+`import bcrypt from "bcryptjs-react";`
+
+---
+
 bcrypt.js
 =========
 Optimized bcrypt in JavaScript with zero dependencies. Compatible to the C++ [bcrypt](https://npmjs.org/package/bcrypt)
