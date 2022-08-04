@@ -1,7 +1,7 @@
 {
   "name": "bcryptjs-react",
-  "description": "Optimized bcrypt in plain JavaScript with zero dependencies. Compatible to 'bcrypt'.",
-  "version": "2.4.4",
+  "description": "Webpack v5 - Optimized bcrypt in plain JavaScript with zero dependencies. Compatible to 'bcrypt'.",
+  "version": "2.4.5",
   "author": "Daniel Wirtz <dcode@dcode.io>",
   "contributors": [
     "Shane Girish <shaneGirish@gmail.com> (https://github.com/shaneGirish)",
@@ -24,6 +24,8 @@
     "authentication",
     "encryption",
     "crypt",
+    "webpack",
+    "react",
     "crypto"
   ],
   "bin": {
